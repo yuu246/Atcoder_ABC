@@ -1,4 +1,4 @@
-# 入力（配列 A, B は 0 番目から始まることに注意！）
+
 N = int(input())
 A = list(map(int, input().split()))
 B = list(map(int, input().split()))
