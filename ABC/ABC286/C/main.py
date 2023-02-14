@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
+from collections import deque
 N, A, B = map(int, input().split())
 S = input()
 
-from collections import deque
 
 S = list(S)
 S = deque(S)
