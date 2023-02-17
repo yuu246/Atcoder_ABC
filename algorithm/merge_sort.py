@@ -1,4 +1,4 @@
-#マージソートのモジュール
+# マージソートのモジュール
 
 def merge_sort(input_list):
     if len(input_list) <= 1:
@@ -9,6 +9,7 @@ def merge_sort(input_list):
         right = merge_sort(input_list[mid:])
         newlist = merge(left, right)
         return newlist
+
 
 def merge(listA, listB):
     newlist = list()
@@ -28,4 +29,3 @@ def merge(listA, listB):
         newlist.append(listB[b])
         b += 1
     return newlist
-
