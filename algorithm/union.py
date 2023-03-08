@@ -33,3 +33,7 @@ class UnionFind():
 
     def size(self, x):
         return self.siz[self.find(x)]
+
+
+N, M = map(int, input().split())
+uf = UnionFind(N)
