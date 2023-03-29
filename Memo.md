@@ -20,14 +20,12 @@ https://atcoder.jp/contests/abc248/tasks/abc248_c
 貰うDPだと難しいがO(NM)　dp + 累積和で計算量削減
 配るDPだとO(NMK)
 
-
 ## 二部探索
 https://atcoder.jp/contests/abc248/tasks/abc248_d
 
 ## 尺取り法
 尺取り法とは端的に言うと、区間の左端と右端を尺取り虫のように動かすことで、条件を満たす区間を高速に見つける、というアルゴリズム
 尺取法は固定する区間の左端をforで、右端をwhileで処理するとうまくいく。
-
 https://atcoder.jp/contests/abc229/tasks/abc229_d
 https://atcoder.jp/contests/abc250/tasks/abc250_d
 
@@ -39,7 +37,22 @@ https://atcoder.jp/contests/abc250/tasks/abc250_d
 
 ## bfs
 https://atcoder.jp/contests/abc211/tasks/abc211_d
+
 ## UnionFind
+
 ## Tree
+## 平衡二分探索木
+https://www.slideshare.net/iwiwi/2-12188757
+## セグメント木
+https://www.slideshare.net/iwiwi/ss-3578491
+
 ## 重み付きグラフの最小移動経路
-## 
+
+## Binary indexed tree
+フェニック木の実態は(実装上は)、部分和をなんかいい感じに詰め込んだ１次元配列
+セグメントツリーの機能限定版　
+
+2種類の操作add sumを高速で処理できるO(logN)
+半開区間ではなく閉区間で考える
+
+https://qiita.com/AkariLuminous/items/f2f7930e7f67963f0493
