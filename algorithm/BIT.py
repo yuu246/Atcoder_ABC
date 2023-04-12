@@ -5,7 +5,7 @@ class BIT:
 
     def add(self, i, x):
         while i <= self.size:
-            self.tree[x] += x
+            self.tree[i] += x
             i += i & -i
 
     def sum(self, i):
